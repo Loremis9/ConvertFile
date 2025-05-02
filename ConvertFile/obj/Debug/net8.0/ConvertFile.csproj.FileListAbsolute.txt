@@ -13,3 +13,4 @@ C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile
 C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.genruntimeconfig.cache
 C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ref\ConvertFile.dll
 C:\Users\axelt\source\repos\ConvertFile\ConvertFile\bin\Debug\net8.0\source\aircraft.xml
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.sourcelink.json
