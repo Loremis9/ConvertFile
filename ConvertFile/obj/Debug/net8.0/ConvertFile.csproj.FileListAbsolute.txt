@@ -1,0 +1,15 @@
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\bin\Debug\net8.0\ConvertFile.exe
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\bin\Debug\net8.0\ConvertFile.deps.json
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\bin\Debug\net8.0\ConvertFile.runtimeconfig.json
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\bin\Debug\net8.0\ConvertFile.dll
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\bin\Debug\net8.0\ConvertFile.pdb
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.AssemblyInfoInputs.cache
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.AssemblyInfo.cs
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.csproj.CoreCompileInputs.cache
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.dll
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\refint\ConvertFile.dll
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.pdb
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ConvertFile.genruntimeconfig.cache
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\obj\Debug\net8.0\ref\ConvertFile.dll
+C:\Users\axelt\source\repos\ConvertFile\ConvertFile\bin\Debug\net8.0\source\aircraft.xml
