@@ -1,7 +1,6 @@
 using System.Xml.Linq;
-using ConvertFile.Models;
 
-namespace ConvertFile.Services;
+namespace ConvertFile;
 
 public class DisplayService
 {
@@ -25,12 +24,12 @@ public class DisplayService
         Console.WriteLine("\n----------------------------------------\n");
     }
 
-    public void DisplayGroupedData(IEnumerable<IGrouping<object, Aircraft>> grouped)
+    public void DisplayGroupedData(IEnumerable<GroupedAircraft> grouped)
     {
-        foreach (var g in grouped)
+        foreach (var group in grouped)
         {
-            Console.WriteLine($"Group: {g.Key}");
-            foreach (var a in g)
+            Console.WriteLine($"Groupe : {group.Key}");
+            foreach (var a in group.Aircrafts)
                 Console.WriteLine($"{a.Model}, {a.Manufacturer}, {a.PassengerCapacity}, {a.Weight}, {a.FuelCapacity}");
         }
     }

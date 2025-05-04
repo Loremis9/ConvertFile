@@ -1,7 +1,6 @@
 using System.Text.Json;
-using ConvertFile.Models;
 
-namespace ConvertFile.Services;
+namespace ConvertFile;
 
 public class ExportService
 {

@@ -1,7 +1,6 @@
 using System.Xml.Linq;
-using ConvertFile.Models;
 
-namespace ConvertFile.Services;
+namespace ConvertFile;
 
 public class AircraftService
 {
@@ -40,13 +39,19 @@ public class AircraftService
         _ => data
     };
 
-    public IEnumerable<IGrouping<object, Aircraft>> Group(IEnumerable<Aircraft> data, string field) => field switch
+    public IEnumerable<GroupedAircraft> Group(IEnumerable<Aircraft> data, string field)
     {
-        "Model" => data.GroupBy(x => (object)x.Model),
-        "Manufacturer" => data.GroupBy(x => (object)x.Manufacturer),
-        "PassengerCapacity" => data.GroupBy(x => (object)x.PassengerCapacity),
-        "Weight" => data.GroupBy(x => (object)x.Weight),
-        "FuelCapacity" => data.GroupBy(x => (object)x.FuelCapacity),
-        _ => new[] { data.GroupBy(x => (object)"Tous").First() }
-    };
+        Func<Aircraft, object> keySelector = field switch
+        {
+            "Model" => x => x.Model,
+            "Manufacturer" => x => x.Manufacturer,
+            "PassengerCapacity" => x => x.PassengerCapacity,
+            "Weight" => x => x.Weight,
+            "FuelCapacity" => x => x.FuelCapacity,
+            _ => x => "Tous"
+        };
+
+        return data.GroupBy(keySelector)
+                   .Select(g => new GroupedAircraft(g.Key, g.ToList()));
+    }
 } 
